@@ -13,7 +13,7 @@ def job():
          print 'lftp is already running'
     else:
          cmd = 'lftp -f /home/user/script' # linux
-#         cmd = 'bash.exe -c "/usr/bin/lftp.exe -f /cygdrive/d/sb/bin/tv.lftp"' #windows
+#         cmd = 'bash.exe -c "/usr/bin/lftp.exe -f /cygdrive/d/script"' #windows
          os.system(cmd)
 
 #schedule.every(9).seconds.do(job)
